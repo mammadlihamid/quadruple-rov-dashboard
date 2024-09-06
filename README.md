@@ -26,6 +26,8 @@ Make sure you have **Python 3.7+** installed. You can download the latest versio
    ```bash
    git clone https://github.com/mammadlihamid/quadruple-rov-dashboard.git
    cd quadruple-rov-dashboard
+   python -m venv venv
+   source venv/bin/activate
    ```
 
 2. **Install the required libraries**:
