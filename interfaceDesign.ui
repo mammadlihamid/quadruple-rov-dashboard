@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuadRuple</class>
+ <widget class="QMainWindow" name="QuadRuple">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1913</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QuadRuple</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+	background-image: url(:/newPrefix/QuadRuple.png);
+	background-repeat: no-repear;
+	background-size: cover;
+	background-position: center;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="quadruple_logo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../.designer/HAMID 2024/QuadRuple/Logo/yeni logo q w.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="cameraPlaceholder" native="true">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>34</y>
+      <width>1891</width>
+      <height>1000</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+	border-radius: 12px;
+}</string>
+    </property>
+    <widget class="QPushButton" name="changeScreen">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>690</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Parametrlər</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="long_light_relay">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>120</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Uzun işığı yandır</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="timerLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>800</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#ffffff;&quot;&gt;00:00:00&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="quadruple_text">
+    <property name="geometry">
+     <rect>
+      <x>803</x>
+      <y>0</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#ffffff;&quot;&gt;QuadRuple&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="azerbaijani_flag">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>6</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../.designer/backup/assets/images/interface images/azerbaijan-flag.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="turkey_flag">
+    <property name="geometry">
+     <rect>
+      <x>1370</x>
+      <y>6</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../.designer/backup/assets/images/interface images/turkey-flag.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>890</y>
+      <width>711</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../.designer/backup/assets/images/interface images/logos.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_torpedo">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>80</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Atəş</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_gear">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>260</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Çarxı işlət</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_torpedo">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>140</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Atəşi saxla</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_gear">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>320</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Çarxı saxla</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="turbo_gear">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>380</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Turbo çarx</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outputLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>859</y>
+      <width>181</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#ffffff;&quot;&gt;Timer started&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="turbo_torpedo">
+    <property name="geometry">
+     <rect>
+      <x>1700</x>
+      <y>200</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Turbo atəş</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="light_relay">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color:white;
+	border-radius: 12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Işığı yandır</string>
+    </property>
+   </widget>
+   <zorder>cameraPlaceholder</zorder>
+   <zorder>quadruple_logo</zorder>
+   <zorder>quadruple_text</zorder>
+   <zorder>turkey_flag</zorder>
+   <zorder>azerbaijani_flag</zorder>
+   <zorder>logo</zorder>
+   <zorder>start_torpedo</zorder>
+   <zorder>start_gear</zorder>
+   <zorder>stop_torpedo</zorder>
+   <zorder>stop_gear</zorder>
+   <zorder>timerLabel</zorder>
+   <zorder>turbo_gear</zorder>
+   <zorder>outputLabel</zorder>
+   <zorder>turbo_torpedo</zorder>
+   <zorder>light_relay</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1913</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionasladdaljdsa4">
+   <property name="text">
+    <string>asladdaljdsa4</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="quadruple.qrc"/>
+  <include location="quadruple.qrc"/>
+ </resources>
+ <connections/>
+</ui>
